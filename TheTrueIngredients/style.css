@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: #163C3E;
+}
+#container{
+	width: 900px;
+	height: 2300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(249, 232, 139, 1);
+}
+#image_div{
+	width: 100%;
+	height: 406px;
+}
+.dJOkSt_img{
+	width: 100%;
+	height: 100%;
+}
+#left_sec{
+	width: 550px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+#buy_div1{
+	width: 100%;
+	height: 35px;
+}
+.buy_btn{
+	width: 100px;
+	height: 35px;
+	color: #FFFFFF;
+	border: 1px solid rgba(0,0,0,0.1);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #FF2449;
+	float: left;
+}
+#content{
+	width: 100%;
+	text-align: center;
+}
+#buy_div2{
+	width: 100%;
+	height: 35px;
+}
+#windows, #apple, #linux{
+	width: 100%;
+	height: 20px;
+}
+#log1, #log2, #log3{
+	width: 100%;
+	height: 20px;
+}
+#comments_div{
+	width: 100%;
+}
+.input_text{
+	width: 95%;
+	height: 35px;
+	border-radius: 2px;
+	border: 1px solid #000000;
+	background-color: transparent;
+}
+.input_submit{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #E54747;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #FF2449;
+}
+#comments_div2{
+	width: 100%;
+	height: 100%;
+}
+#right_sec{
+	width: 300px;
+	margin-top: 15px;
+	margin-right: 15px;
+	float: right;
+}
+@media screen and (max-width: 400px){
+	#container{
+		width: 100%;
+		height: 3560px;
+	}
+	#image_div{
+		height: 190px;
+	}
+	#left_sec{
+		width: 100%;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.frame{
+		width: 100%;
+	}
+	#right_sec{
+		width: 100%;
+		margin-top: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+}
